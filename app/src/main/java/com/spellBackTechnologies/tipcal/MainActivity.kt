@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity()
         totalAmount = findViewById(R.id.totalAmountField)
 
         tipPercentage_seek.progress = defaultTipPercentage
-        tipPercentage.text = defaultTipPercentage.toString()
+        tipPercentage.text = defaultTipPercentage.toString() + "%"
 
         tipPercentage_seek.setOnSeekBarChangeListener(
             object: SeekBar.OnSeekBarChangeListener

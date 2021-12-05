@@ -94,4 +94,18 @@
         app:layout_constraintTop_toTopOf="@id/totalAmountLabel"
         app:layout_constraintTop_toBottomOf="@id/totalAmountLabel" />
 
+    <TextView
+        android:id="@+id/footerCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="32dp"
+        android:text="Made by Paresh Wadhwani to Learn Basics of Kotlin &amp; Android Development"
+        android:textAlignment="center"
+        android:maxWidth="110pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
